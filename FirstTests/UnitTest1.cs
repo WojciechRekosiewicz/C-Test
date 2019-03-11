@@ -11,7 +11,7 @@ namespace FirstTests
         [TestMethod]
         public void ToString_TextFormated_GoodFormat()
         {
-            var worm = new Employee("Worm", "10/10/1970", Genders.Male, 100000, "junior C# dev", new Room(10));
+            var worm = new Employee("Worm", "10/10/1970", Genders.Male, 100000, "junior C# dev", new Room());
             worm.Room.RoomNumber = 10;
 
             string ExpectedName = "Worm";

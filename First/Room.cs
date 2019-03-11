@@ -10,9 +10,9 @@ namespace First
     {
        public int RoomNumber { get; set; }
 
-        public Room(int RommNumber) 
-        {
-            this.RoomNumber = RoomNumber;
-        }
+        //public Room(int RommNumber)
+        //{
+        //    this.RoomNumber = RoomNumber;
+        //}
     }
 }

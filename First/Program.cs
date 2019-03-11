@@ -10,8 +10,7 @@ namespace First
     {
         static void Main(string[] args)
         {
-            Employee worm = new Employee("Robak", "10/10/1970", Genders.Male, 100000, "junior C# dev", new Room(10));
-            Console.WriteLine(worm.Room.RoomNumber);
+            Employee worm = new Employee("Robak", "10/10/1970", Genders.Male, 100000, "junior C# dev", new Room());
             worm.Room.RoomNumber = 10;
 
             Console.WriteLine();

@@ -36,9 +36,7 @@ namespace First
 
         public object Clone()
         {
-            Employee newEmployee = (Employee)this.MemberwiseClone();
-            newEmployee.Room = new Room(Room.RoomNumber);
-            return newEmployee;
+            return this.MemberwiseClone();
         }
 
     }
