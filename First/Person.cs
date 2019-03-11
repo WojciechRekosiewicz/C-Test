@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace First
 {
-    enum Genders { Male, Female }
+    public enum Genders { Male, Female }
 
-    class Person
+    public class Person
     {
         public string Name { get; set; }
         public string BirthDate { get; set; }

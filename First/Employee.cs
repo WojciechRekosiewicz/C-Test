@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace First
 {
-    class Employee : Person
+    public class Employee : Person
     {
         public int Salary { get; set; }
         public string Profession { get; set; }
