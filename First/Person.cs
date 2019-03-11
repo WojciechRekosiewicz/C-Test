@@ -13,7 +13,6 @@ namespace First
         public string Name { get; set; }
         public string BirthDate { get; set; }
         public Genders gender { get; set; }
-        //public var Gender { get; set; }
 
         public Person(string Name, string BirthDate, Genders gender)
         {
